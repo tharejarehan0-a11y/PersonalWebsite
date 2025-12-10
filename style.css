@@ -82,3 +82,23 @@ body{
     margin-top:20px;
     margin-bottom:20px;
 }
+@media (max-width: 540px) {
+    .left{
+      float:left;
+      height:125px;
+      width:80px;
+      border-radius:80px;
+      margin:10px;
+      margin-right:-2px;
+      border:white 5px solid;
+    }
+    .right{
+      float:left;
+      height:125px;
+      width:80px;
+      border-radius:80px;
+      margin:20px;
+      margin-right:-2px;
+      border:white 5px solid;
+    }
+}
